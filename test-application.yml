@@ -7,14 +7,14 @@ example:
   
 ---
 spring:
-  profile: prd
+  profiles: prd
 
 info:
   description: prd env  
   
 ---
 spring:
-  profile: dev
+  profiles: dev
 
 info:
   description: dev env  
