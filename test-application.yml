@@ -4,3 +4,16 @@ logging:
     
 example:
   user: William
+  
+---
+spring:
+  profile: prd
+
+info:
+  description: prd env  
+---
+spring:
+  profile: dev
+
+info:
+  description: dev env  
